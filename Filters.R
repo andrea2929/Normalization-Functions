@@ -1,7 +1,7 @@
 # Filtering out Bad Data
 # Each filter accepts a data frame and a list of columns
 # Returns filtered data frame
-
+ 
 # Check Names for Special Characters
 stringFilter <- function(x, cols) {
   for(c in cols) {
